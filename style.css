@@ -1,0 +1,221 @@
+
+td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+ .modiji{
+  float: right;
+  height: 300px;
+  width: 300px;
+  margin-right: 50px;
+  margin-top: -20px;
+}
+
+.throupathy{
+  float: left;
+  height: 300px;
+  width: 250px; 
+  margin-left: 100px;
+}
+
+h1{
+    font-family: 'Poppins', -apple-system, Arial, Helvetica, sans-serif;
+    font-size :32px;
+   font-weight: 700;
+}
+
+.imgdiv{
+    background-color: bisque; 
+    width: 700px;
+    padding: 0;
+}
+
+.indimg{
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.indimg1{
+    float: right;
+}
+.indimg2{
+    float: left;
+    height: 400px;
+   }
+
+
+   .viksit{
+
+    width: 500px;
+    height: auto;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    display: grid;
+    text-align: center;
+   }
+
+   .vikcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+.bgimg{
+    background-image:url('./photos/bg3.jpg'); 
+    background-color: rgba(254, 179, 39,0.4);
+    background-attachment: scroll;
+    background-repeat:no-repeat;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.indimg1:hover{
+    transform: scale(1.2);
+}
+
+.wd{
+  width: 300px;
+}
+
+footer{
+    background-image: url("/photos/tricolor/footerimg.jpg");
+    color: white;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    
+  }
+  
+  .fa:hover {
+    border: 1px solid black;
+    color: black;
+  }
+  
+  .fa-facebook {
+    background: blue;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: blue;
+    border: 1px solid white;
+    color: white;
+  }
+
+  .btend{
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background: black;
+    border: 1px solid white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+  .btabove{
+    background: black;
+    color: white;
+    text-decoration: none;
+    
+  }
+
+  .btend:active{
+    scroll-behavior: smooth;
+    transition: 2s;
+  }
+
+  /* Carousel css */
+
+
+  .mySlides {display: none;}
+  .car {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #190202;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #140000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    font-weight: bolder;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .nav-change{
+    text-decoration: none;
+    color: #C5C3BE;
+  }
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 3.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
