@@ -85,7 +85,7 @@ h1{
   width: 300px;
 }
 
-footer{
+.footer{
     background-image: url("/photos/tricolor/footerimg.jpg");
     color: white;
     padding-top: 50px;
